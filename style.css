@@ -1,0 +1,114 @@
+:root{
+    --time:0.45s;
+}
+@keyframes star{
+    from{left:-15vh}
+    to{left:200vh}
+    }
+
+@keyframes villians {
+    from{right:-15vh}
+    to{right:120vw}
+}
+    
+    
+body{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero{
+    display: inline;
+    position: relative;
+    height: 25vh;
+    width: auto;
+    /* bottom:40vh; */
+    z-index: 1;
+    transition: ease;
+    /* margin-left: 30px;
+    margin-top: 30px; */
+}
+
+.main-container{
+    
+    background-color: transparent;
+    height: 85vh;
+    width: 90%;
+}
+
+.star{
+    display: inline;
+    position: relative;
+    height: 3vh;
+    width: auto;
+    bottom: 9.8vh;
+    z-index: 2;
+    left:-15vh;
+    /* animation-name: star; */
+    animation-iteration-count: infinite;
+    animation-duration: var(--time);
+}
+/* #star2{
+    animation-duration: var(--time);
+}
+#star3{
+    animation-duration: var(--time);
+}
+#star4{
+    animation-duration: var(--time);
+}
+#sta5{
+    animation-duration: var(--time);
+}
+#star6{
+    animation-duration: var(--time);
+}
+#star7{
+    animation-duration: var(--time);
+}
+#star8{
+    animation-duration: var(--time);
+}
+#star9{
+    animation-duration: var(--time);
+}
+#star10{
+    animation-duration: var(--time);
+}
+#sta11{
+    animation-duration: var(--time);
+}
+#star12{
+    animation-duration: var(--time);
+}
+#star13{
+    animation-duration: var(--time);
+}
+#star14{
+    animation-duration: var(--time);
+}
+#star15{
+    animation-duration: var(--time);
+}
+#star16{
+    animation-duration: var(--time);
+}
+#sta17{
+    animation-duration: var(--time);
+}
+#star18{
+    animation-duration: var(--time);
+} */
+
+.villians{
+
+    position: absolute;
+    top: 10.8vh;
+    right:-15vw;
+    /* animation-name: villians; */
+    animation-duration: 20s;
+    animation-iteration-count: 5;
+}

@@ -1,0 +1,51 @@
+body{
+    overflow: hidden;
+}
+
+.main-villan{
+    position: absolute;
+    bottom:-35vh;
+    right:-35vh;
+    height:80vh;
+    width: auto;
+}
+
+.villans{
+    height:20vh;
+    width: auto;
+    position: absolute;
+    right:25vh;
+    top:40vh;
+}
+
+.bullet{
+    height:4vh;
+    width: auto;
+    position: absolute;
+    right: 55vh;
+    top:48vh;
+}
+
+.hero{
+    position: absolute;
+    height: 60vh;
+    width: auto;
+    bottom:0;
+}
+
+.star-bullet{
+    position: absolute;
+    height: 7vh;
+    width: auto;
+    bottom:26.5vh;
+    left:65vh;
+}
+
+.main-logo{
+    position: absolute;
+    top:20px;
+    height: 10vh;
+    width: auto;
+    left:40px;
+    
+}
